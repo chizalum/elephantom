@@ -185,6 +185,6 @@ font-weight: 400;
 font-size: 24px;
 line-height: 30px;
 color: #30425A;
-margin: 20px auto 0 61px;           
+margin: 20px auto 40px 61px;           
 }
 </style>
