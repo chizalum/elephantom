@@ -49,14 +49,14 @@
 export default {
   name: 'HomeView',
   // components: {
-  //  details: details,
+  //  details: details, 
   // },
   created(){
     this.getAsianElephants()
   },
   methods: {
     getAsianElephants(){
-      fetch('http://acumen-elephantom.herokuapp.com/elephants/asian')
+      fetch('https://acumen-elephantom.herokuapp.com/elephants/asian')
     .then((response) => response.json())
     .then((data)=>{
       this.asianelephants = data.data;

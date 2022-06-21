@@ -25,7 +25,7 @@ export default {
 
   methods: {
     getElephantDetails () {
-      fetch(`http://acumen-elephantom.herokuapp.com/elephants/id/${this.$route.query.id}`)
+      fetch(`https://acumen-elephantom.herokuapp.com/elephants/id/${this.$route.query.id}`)
       .then((response) => response.json())
       .then((data)=>{
       console.log(data)
